@@ -37,9 +37,12 @@ p {
 .proweb-btn{
     background: linear-gradient(to top , var(--proweb-btn-bg1)100%, var(--proweb-btn-bg2)100%);
     color:var(--proweb-h-bg);
+    transition:1s ease;
 }
 .proweb-btn:hover{
     color:var(--proweb-h-bg);
+    background:var(--proweb-sp-text);
+    transform: scale(1.05);
 }
 section{
     margin-bottom: 6.25rem;
@@ -73,6 +76,9 @@ img{
 }
 
 /* card */
+.card{
+    border-radius: .8rem;
+}
 .card-header img{
     width:300px;
     height:300px;
