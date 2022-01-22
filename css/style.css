@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --proweb-h-bg: #FFF9F4;
+    --proweb-btn-bg1: #3D4FF3;
+    --proweb-btn-bg2: #3D4FF3;
+    --proweb-sp-text: #FA804C;
+    --proweb-text-color: #363958;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* =============== common tags style ============== */
+.h1,
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+}
+
+.proweb-sp-text {
+    color: var(--proweb-sp-text);
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0;
+}
+.proweb-btn{
+    background: linear-gradient(to top , var(--proweb-btn-bg1)100%, var(--proweb-btn-bg2)100%);
+    color:var(--proweb-h-bg);
+}
+.proweb-btn:hover{
+    color:var(--proweb-h-bg);
+}
+section{
+    margin-bottom: 6.25rem;
+}
+/* ========= Header section =============== */
+.header {
+    background-color: var(--proweb-h-bg);
+    margin-bottom: 6.25rem;
+}
+
+.header .h1 {
+    font-size: 5rem;
+}
+
+.c-left {
+    background-image: url(../icons/Group\ 33102.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    transition: 1s ease;
+
+}
+img{
+    transition: 1s ease;
+}
+.c-left:hover img,
+.card:hover .card-header img {
+    transform: rotate(10deg);
+    transform-origin: x-axis;
+    transform: rotate(10deg) scale(1.1);
+}
+
+/* card */
+.card-header img{
+    width:300px;
+    height:300px;
+}
