@@ -34,27 +34,33 @@ p {
 .navbar-toggler:focus {
     box-shadow: 0;
 }
-.proweb-btn{
-    background: linear-gradient(to top , var(--proweb-btn-bg1)100%, var(--proweb-btn-bg2)100%);
-    color:var(--proweb-h-bg);
-    transition:1s ease;
+
+.proweb-btn {
+    background: linear-gradient(to top, var(--proweb-btn-bg1)100%, var(--proweb-btn-bg2)100%);
+    color: var(--proweb-h-bg);
+    transition: 1s ease;
 }
-.proweb-btn:hover{
-    color:var(--proweb-h-bg);
-    background:var(--proweb-sp-text);
+
+.proweb-btn:hover {
+    color: var(--proweb-h-bg);
+    background: var(--proweb-sp-text);
     transform: scale(1.05);
 }
-section{
+
+section {
     margin-bottom: 6.25rem;
 }
+
 /* ========= Header section =============== */
 .header {
     background-color: var(--proweb-h-bg);
     margin-bottom: 6.25rem;
 }
-.h-content{
-    margin-top:6.25rem;
+
+.h-content {
+    margin-top: 6.25rem;
 }
+
 .h-content h1 {
     font-size: 5rem;
 }
@@ -67,10 +73,11 @@ section{
     transition: 1s ease;
 
 }
-img{
+
+img {
     transition: 1s ease;
 }
-.c-left:hover img,
+
 .card:hover .card-header img {
     transform: rotate(10deg);
     transform-origin: x-axis;
@@ -81,7 +88,8 @@ img{
 .proweb-rounded {
     border-radius: .8rem;
 }
-.card-header img{
-    width:300px;
-    height:300px;
+
+.card-header img {
+    width: 300px;
+    height: 300px;
 }
